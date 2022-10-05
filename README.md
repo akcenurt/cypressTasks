@@ -1,1 +1,1 @@
-Samples of tasks from Cypress course.
+Samples of tasks made on a duplicate of app Trello. 
