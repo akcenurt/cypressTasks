@@ -37,10 +37,6 @@ it('vytvorenie tasku', () => {
   .should("eq","2022-09-20")
 
 
-
-
-  // vytvor si v teste nový task v zozname a odsleduj si request, ktorý sa udeje pri jeho vytvorení. pomocou príkazov .its() a .should() si otestuj status alebo telo odpovede requestu
-
 })
 
 it('odstránenie zoznamu', () => {
@@ -55,9 +51,6 @@ it('odstránenie zoznamu', () => {
   .its("status")
   .should("eq", 200)
 
-
-
-  // manuálne si vytvor nový zoznam a pomocou testu tento zoznam odstráň. následne si odsleduj request, ktorý sa volá pri odstránení zoznamu
 
 })
 
@@ -81,8 +74,5 @@ it.only('zaskrtnutie tasku', () => {
   
   })*/
 
-
-
-  // pomocou testu si zaškrtni task v zozname a odsleduj si request, ktorý sa pri tejto akcii odpaľuje. skús si vytvoriť aj zopár testov pre tento request. skús na overenie spoužiť príkaz .then() skontroluj napríklad status kód a telo requestu
 
 })
