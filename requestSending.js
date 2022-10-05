@@ -4,8 +4,6 @@ const boardName = "nový board"
 
 beforeEach( () => {
 
-    // pred začiatkom testu vymaž všetky boardy
-
     cy.request("DELETE", "/api/boards")
 
     cy.request("POST", "/api/boards",
